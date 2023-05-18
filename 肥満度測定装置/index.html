@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>肥満度測定システム</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <h1>肥満度測定システム</h1>
+  <div id="age">
+    <p>年齢</p>
+    <div id="age_flex">
+        <input id="age_inside" type="text">
+        <p class="unit">歳</p>
+    </div>
+  </div>
+  <div id="age2">
+    <p>年齢(月)</p>
+    <div id="age2_flex">
+        <input id="age2_inside" type="text">
+        <p class="unit">ヶ月</p>
+    </div>
+  </div>
+  <div id="height">
+    <p>身長</p>
+    <div id="height_flex">
+        <input id="height_inside" type="text">
+        <p class="unit">cm</p>
+    </div>
+  </div>
+  <div id="weight">
+    <p>体重</p>
+    <div id="weight_flex">
+        <input id="weight_inside" type="text">
+        <p class="unit">kg</p>
+    </div>
+  </div>
+  <div id="alarms">
+    <p id="special">※妊娠中などの特別な場合は、これに当てはまらない場合があります。</p>
+    <p id="reliance">※この計算結果のみに依存したダイエットなどは、絶対にしないでください。</p>
+    <p id="infant">※生後３ヶ月未満の幼児には使用できません。</p>
+    <p id="numbers">※すべての項目を半角数字で漏れなく入力してください。</p>
+  </div>
+  <input id="botton" type="submit" value="送信">
+  <script src="js/app.js"></script>
+</body>
+</html>

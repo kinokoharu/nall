@@ -1,0 +1,27 @@
+h1 {
+    color: brown;
+}
+
+#age_inside, #age2_inside, #height_inside, #weight_inside {
+    float: left;
+    height: 17px;
+}
+
+#age_flex, #age2_flex, #height_flex, #weight_flex {
+    display: flex;
+}
+
+#age2 {
+    display: none;
+}
+
+.unit {
+    position: relative;
+    left: 3px;
+    bottom: 16px;
+}
+
+#alarms {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
